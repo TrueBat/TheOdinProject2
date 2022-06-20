@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 117);
+    padding: 10px;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+a, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+    }
+
+.nav ul li{
+    padding: 5px;
+    font-size: 20px;
+    color: gray;
+}
+
+.nav-links:hover, .footer-text:hover{
+    text-shadow: 0px 0px 4px cyan;
+}
+
+.logo{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+h1{
+    font-size: 48px;
+}
+
+.welcome-wrapper{
+    padding: 80px 30px;
+    background-image: url(images/Eucalyptus-trees-plantation-Australia.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+
+}
+
+.welcome{
+    background-color: rgba(128, 128, 128, 0.5);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    border-radius: 25px;
+}
+.welcome-text, .sign-up-text{
+    font-size: 24px;
+}
+.here{
+    color: blue;
+}
+
+.emu{
+    height: 300px;
+    border-radius: 20px;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+}
+.infos{
+    display: flex;
+    flex-direction: row;
+    
+}
+.info{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-img{
+    width: 200px;
+    height: 200px;
+    border: 2px solid blue;
+    border-radius: 25px;
+}
+h2{
+    font-size: 36px;
+}
+.quote-wrapper{
+    padding: 30px;
+    background-image: url(images/dryandra-lake-western-australia.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.quote{
+    background-color: rgba(128, 128, 128, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 150px;
+    border-radius: 25px;
+}
+.quote-e{
+    text-align: right;
+    font-size: 24px;
+    font-weight: bold;
+}
+.quote-p{
+    font-size: 36px;
+    color: black;
+    text-shadow: 0px 0px 4px white;
+    font-style: italic;
+}
+.sign-up{
+    display: flex;
+    padding: 20px 50px;
+    background-color: rgb(0, 119, 255);
+    border-radius: 25px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+button{
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+.sign-up-btn{
+    background-color: gray;
+    width: 150px;
+    border-radius: 10px;
+    height: 70px;
+    font-size: 20px;
+}
+.sign-up-btn:hover{
+    background-color: rgba(128, 128, 128, 0.8);
+}
+.sign-up-btn:active{
+    background-color: rgb(65, 65, 65);
+}
+.footer{
+    background-color: rgb(0, 0, 117);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    font-size: 20px;
+}
